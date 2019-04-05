@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ContactMe = () => {
-    return <div>ContactMe</div>;
+    return <div className="Fullscreen ScrollSection">ContactMe</div>;
 };
 
 export default ContactMe;

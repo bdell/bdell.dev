@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Examples = () => {
-    return <div>Examples</div>;
+    return <div className="Fullscreen ScrollSection">Examples</div>;
 };
 
 export default Examples;

@@ -7,11 +7,13 @@ import './App.css';
 const App = () => {
     return (
         <div className="App">
-            <Welcome />
-            <Examples />
-            <PreviousExperience />
-            <AboutMe />
-            <ContactMe />
+            <div className="ScrollContainer">
+                <Welcome />
+                <Examples />
+                <PreviousExperience />
+                <AboutMe />
+                <ContactMe />
+            </div>
         </div>
     );
 };

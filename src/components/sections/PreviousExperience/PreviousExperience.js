@@ -1,7 +1,7 @@
 import React from 'react';
 
 const PreviousExperience = () => {
-    return <div>PreviousExperience</div>;
+    return <div className="Fullscreen ScrollSection">PreviousExperience</div>;
 };
 
 export default PreviousExperience;

@@ -1,4 +1,17 @@
-.App {
+.ScrollContainer {
+  scroll-snap-type: both mandatory;
+  overflow: scroll;
+  height: 100vh;
+  width: 100vw;
+}
+
+.Fullscreen {
+  height: 100vh;
+  width: 100vw;
+}
+
+.ScrollSection {
+  scroll-snap-align: start;
   background: #49483E;
   color: #F8F8F0;
 }
