@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Welcome, Examples, PreviousExperience, AboutMe, ContactMe } from './components/sections';
 
-import './App.css';
+import './App.scss';
 
 const App = () => {
     return (
