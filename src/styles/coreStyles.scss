@@ -1,0 +1,37 @@
+@import './styles/styleVariables.scss';
+
+.Fullscreen {
+    height: 100vh;
+    width: 100vw;
+}
+
+.FullContainer {
+    height: 100%;
+    width: 100%;
+}
+
+.FullWidth {
+    width: 100%;
+}
+
+.FlexHCentered {
+    display: flex;
+    justify-content: center;
+}
+
+.FlexGrow {
+    flex-grow: 1;
+}
+
+.FlexCentered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ScrollContainer {
+    scroll-snap-type: both mandatory;
+    overflow: auto;
+    height: calc(100vh - #{$topBarHeight} - 1px);
+    width: 100vw;
+}

@@ -1,18 +1,16 @@
 import React from 'react';
-
-import { Welcome, Examples, PreviousExperience, AboutMe, ContactMe } from './components/sections';
+import { Welcome, AboutMe, Projects, TopBar } from './components';
 
 import './App.scss';
 
 const App = () => {
     return (
         <div className="App">
+            <TopBar />
             <div className="ScrollContainer">
                 <Welcome />
-                <Examples />
-                <PreviousExperience />
+                <Projects />
                 <AboutMe />
-                <ContactMe />
             </div>
         </div>
     );

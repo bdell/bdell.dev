@@ -1,0 +1,7 @@
+@import '../../styles/styleVariables.scss';
+
+.TopBar {
+    height: $topBarHeight;
+    background-color: white;
+    border-bottom: 1px solid $grey;
+}
