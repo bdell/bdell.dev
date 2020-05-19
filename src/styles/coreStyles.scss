@@ -10,6 +10,11 @@
     width: 100%;
 }
 
+.ScrollStop {
+    scroll-snap-align: start;
+    scroll-snap-type: proximity;
+}
+
 .FullWidth {
     width: 100%;
 }

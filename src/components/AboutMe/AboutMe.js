@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = () => {
     return (
-        <div className="FullContainer FlexCentered">
+        <div className="FullContainer FlexCentered ScrollStop">
             <div style={{ width: '50%' }}>
                 <span>
                     My name is Brandon and I have been working in software development for over 8 years. I started out
