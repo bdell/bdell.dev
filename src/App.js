@@ -9,8 +9,8 @@ const App = () => {
             <TopBar />
             <div className="ScrollContainer">
                 <Welcome />
-                <Projects />
                 <AboutMe />
+                <Projects />
             </div>
         </div>
     );
