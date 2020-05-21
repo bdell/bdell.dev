@@ -15,6 +15,32 @@
     scroll-snap-type: proximity;
 }
 
+.FlexCol {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.FlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.FlexGrid {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+    .FlexGrid {
+        display: block;
+    }
+}
+
+.FullHeight {
+    height: 100%;
+}
+
 .FullWidth {
     width: 100%;
 }

@@ -4,6 +4,7 @@ const projects = [
         url: `https://github.com/bdell/pyPWA`,
         description: `A python toolkit for partial wave analysis`,
         projectId: 1,
+        image: `${process.env.PUBLIC_URL}/projectImages/pyPWAScreenShot.png`,
     },
     {
         title: `Electron Angular Material Yeoman Generator`,
