@@ -1,0 +1,19 @@
+@import '../../styles/styleVariables.scss';
+
+.TopBar {
+    height: $topBarHeight;
+    background-color: $red;
+    border-bottom: 1px solid $grey;
+    color: $white;
+}
+
+.TopBarContentContainer {
+    height: 100%;
+    margin-left: 8px;
+}
+
+.MenuLink {
+    margin-right: 8px;
+    cursor: pointer;
+    height: 100%;
+}

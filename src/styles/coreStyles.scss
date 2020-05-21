@@ -1,0 +1,69 @@
+@import './styles/styleVariables.scss';
+
+.Fullscreen {
+    height: 100vh;
+    width: 100vw;
+}
+
+.FullContainer {
+    height: 100%;
+    width: 100%;
+}
+
+.ScrollStop {
+    scroll-snap-align: start;
+    scroll-snap-type: proximity;
+    scroll-snap-stop: always;
+}
+
+.FlexCol {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.FlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.FlexGrid {
+    display: flex;
+}
+
+@media (max-width: 650px) {
+    .FlexGrid {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.FullHeight {
+    height: 100%;
+}
+
+.FullWidth {
+    width: 100%;
+}
+
+.FlexHCentered {
+    display: flex;
+    justify-content: center;
+}
+
+.FlexGrow {
+    flex-grow: 1;
+}
+
+.FlexCentered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ScrollContainer {
+    scroll-snap-type: both mandatory;
+    overflow: auto;
+    height: calc(100vh - #{$topBarHeight} - 1px);
+    width: 100vw;
+}
