@@ -28,12 +28,12 @@
 
 .FlexGrid {
     display: flex;
-    justify-content: space-around;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .FlexGrid {
-        display: block;
+        display: flex;
+        justify-content: space-around;
     }
 }
 

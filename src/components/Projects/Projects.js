@@ -8,13 +8,11 @@ import projects from './Projects.config';
 const Projects = () => {
     return (
         <div className="FullContainer ScrollStop">
-            <div className="ProjectsContainer">
+            <div className="ProjectsContainer FullHeight">
                 <h2>Projects</h2>
-                <div className="FlexGrid">
+                <div className="FlexGrid ProjectScrollGrid">
                     {projects.map((project) => (
-                        <div className="FlexCol" key={`project-${project.projectId}`}>
-                            <ProjectCard {...project} />
-                        </div>
+                        <ProjectCard {...project} />
                     ))}
                 </div>
             </div>
