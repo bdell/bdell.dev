@@ -11,12 +11,14 @@ const projects = [
         url: `https://github.com/bdell/generator-electron-angular-material`,
         description: `A yeoman generator to quickly scaffold out Electron apps with the Angular Material styling`,
         projectId: 2,
+        image: `${process.env.PUBLIC_URL}/projectImages/angularMaterialElectronGenerator.png`,
     },
     {
         title: `OS Input Capture (OIC)`,
         url: `https://github.com/bdell/os-input-capture`,
         description: `OS level keylogger with mouse support and optional window screen shot capabilities for linux`,
         projectId: 3,
+        image: `${process.env.PUBLIC_URL}/projectImages/oicImage.png`,
     },
 ];
 
