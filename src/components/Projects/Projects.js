@@ -12,7 +12,7 @@ const Projects = () => {
                 <h2>Projects</h2>
                 <div className="FlexGrid ProjectScrollGrid">
                     {projects.map((project) => (
-                        <ProjectCard {...project} />
+                        <ProjectCard key={`project-${project.projectId}`} {...project} />
                     ))}
                 </div>
             </div>

@@ -7,6 +7,7 @@
 .ProjectScrollGrid {
     overflow: scroll;
     height: calc(100% - 46px - #{$topBarHeight});
-    border: 1px solid black;
+    border: 1px solid $grey;
     flex-flow: wrap;
+    padding: $defaultPaddingAmount;
 }

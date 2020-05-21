@@ -11,9 +11,6 @@ const TopBar = () => {
             <div className="FlexCentered TopBarContentContainer">
                 <div>bdell.dev</div>
                 <div className="FlexGrow" />
-                <div className="MenuLink FlexCentered">Hello</div>
-                <div className="MenuLink FlexCentered">Projects</div>
-                <div className="MenuLink FlexCentered">About</div>
                 <div className="MenuLink FlexCentered" onClick={openGithubLink}>
                     Github
                 </div>
