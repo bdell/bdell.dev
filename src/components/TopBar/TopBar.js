@@ -3,17 +3,13 @@ import React from 'react';
 import './TopBar.scss';
 
 const TopBar = () => {
-    const openGithubLink = () => {
-        window.open(`https://github.com/bdell?tab=repositories`, '_blank');
-    };
     return (
         <div className="TopBar FullWidth">
             <div className="FlexCentered TopBarContentContainer">
-                <div>bdell.dev</div>
                 <div className="FlexGrow" />
-                <div className="MenuLink FlexCentered" onClick={openGithubLink}>
-                    Github
-                </div>
+                <a href="https://github.com/bdell/" target="_blank" rel="noopener noreferrer">
+                    <img src={`${process.env.PUBLIC_URL}/GitHub-Mark-Light-32px.png`} alt="Github Link" />
+                </a>
             </div>
         </div>
     );
