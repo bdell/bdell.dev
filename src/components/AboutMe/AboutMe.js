@@ -4,7 +4,7 @@ import './AboutMe.scss';
 
 const AboutMe = () => {
     return (
-        <div className="FullContainer FlexCentered AboutMeSectionContainer FlexHCentered">
+        <div className="FlexCentered AboutMeSectionContainer FlexHCentered">
             <div className="FlexCentered">
                 <div className="FlexColumn MainAboutMeContainer">
                     <div className="WhoAmIHeader DefaultPadded DefaultBordered">
