@@ -1,4 +1,5 @@
-@import './styles/styleVariables.scss';
+@import './styleVariables.scss';
+@import './animations.scss';
 
 @font-face {
     font-family: 'AnimeAce';
@@ -63,6 +64,8 @@
     overflow: auto;
     height: 100vh;
     width: 100vw;
+    min-width: 350px;
+    transition: background-color 1s ease;
 }
 
 .DefaultBordered {

@@ -1,7 +1,6 @@
 @import '../../styles/styleVariables.scss';
 
 .AboutMeSectionContainer {
-    background-color: #27aae2;
     min-height: 100vh;
 }
 
@@ -25,6 +24,6 @@
 
 @media (max-width: $largeBreakpoint) {
     .MainAboutMeContainer {
-        max-width: 75%;
+        max-width: 90%;
     }
 }
