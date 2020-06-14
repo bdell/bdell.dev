@@ -6,8 +6,9 @@ const Welcome = () => {
     return (
         <div className="FullContainer FlexCentered WelcomePage">
             <div>
-                <div className="WelcomeBackDrop DefaultBordered" />
-                <h1>Hello There</h1>
+                <div className="WelcomeBackDrop DefaultBordered DefaultPadded">
+                    <h1>Hello There</h1>
+                </div>
             </div>
         </div>
     );

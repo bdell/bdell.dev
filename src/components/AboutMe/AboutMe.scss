@@ -2,10 +2,10 @@
 
 .AboutMeSectionContainer {
     background-color: #27aae2;
+    min-height: 100vh;
 }
 
 .AboutMeSectionText {
-    width: 50%;
     background-color: black;
     color: white;
     border: $defaultBorderSize white solid;
@@ -14,4 +14,17 @@
 .WhoAmIHeader {
     background-color: $pop-red;
     font-family: 'AnimeAce';
+    width: 115px;
+    margin-bottom: $defaultPaddingAmount;
+}
+
+.MainAboutMeContainer {
+    width: 50%;
+    max-width: $largeBreakpoint;
+}
+
+@media (max-width: $largeBreakpoint) {
+    .MainAboutMeContainer {
+        max-width: 75%;
+    }
 }
