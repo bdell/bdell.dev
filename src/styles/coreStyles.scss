@@ -1,5 +1,15 @@
 @import './styles/styleVariables.scss';
 
+@font-face {
+    font-family: 'AnimeAce';
+    src: local('AnimeAce'), url(./animeace2_reg.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'HackRegular';
+    src: local('HackRegular'), url(./Hack-Regular.ttf) format('truetype');
+}
+
 .Fullscreen {
     height: 100vh;
     width: 100vw;
@@ -8,12 +18,6 @@
 .FullContainer {
     height: 100%;
     width: 100%;
-}
-
-.ScrollStop {
-    scroll-snap-align: start;
-    scroll-snap-type: proximity;
-    scroll-snap-stop: always;
 }
 
 .FlexCol {
@@ -29,13 +33,6 @@
 
 .FlexGrid {
     display: flex;
-}
-
-@media (max-width: 650px) {
-    .FlexGrid {
-        display: flex;
-        justify-content: space-around;
-    }
 }
 
 .FullHeight {
@@ -64,6 +61,14 @@
 .ScrollContainer {
     scroll-snap-type: both mandatory;
     overflow: auto;
-    height: calc(100vh - #{$topBarHeight} - 1px);
+    height: 100vh;
     width: 100vw;
+}
+
+.DefaultBordered {
+    border: $defaultBorderSize black solid;
+}
+
+.DefaultPadded {
+    padding: $defaultPaddingAmount;
 }

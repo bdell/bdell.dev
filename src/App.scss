@@ -1,1 +1,6 @@
 @import './styles/coreStyles.scss';
+@import './styles/styleVariables.scss';
+
+.App {
+    font-family: HackRegular;
+}

@@ -1,0 +1,12 @@
+@import '../../styles/styleVariables.scss';
+
+.WelcomePage {
+    background: $pop-green;
+    font-family: AnimeAce;
+}
+
+.WelcomeBackDrop {
+    background-color: $pop-red;
+    height: 100px;
+    width: 100px;
+}
