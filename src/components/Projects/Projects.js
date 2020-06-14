@@ -7,13 +7,19 @@ import projects from './Projects.config';
 
 const Projects = () => {
     return (
-        <div className="FullContainer ScrollStop">
-            <div className="ProjectsContainer FullHeight">
-                <h2>Projects</h2>
-                <div className="FlexGrid ProjectScrollGrid">
-                    {projects.map((project) => (
-                        <ProjectCard key={`project-${project.projectId}`} {...project} />
-                    ))}
+        <div className="ProjectsPage">
+            <div className="FlexCentered">
+                <div className="MainProjectContent">
+                    <div className="ProjectContainerTitle DefaultPadded FlexCentered">
+                        <span>Projects</span>
+                    </div>
+                    <div className="FlexHCentered ">
+                        <div className="ProjectCardGrid">
+                            {projects.map((project) => (
+                                <ProjectCard key={`project-${project.projectId}`} {...project} />
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
