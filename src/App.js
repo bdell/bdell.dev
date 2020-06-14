@@ -37,8 +37,7 @@ const App = () => {
         }
     };
     const handleScroll = () => {
-        console.log('handling scroll');
-        const timeoutMS = 500;
+        const timeoutMS = 200;
         if (scrollHandlingTimeout) {
             clearTimeout(scrollHandlingTimeout);
             scrollHandlingTimeout = setTimeout(updateScrollState, timeoutMS);
@@ -49,7 +48,6 @@ const App = () => {
 
     useEffect(() => window.addEventListener('resize', handleScroll));
 
-    
     return (
         <div className="ScrollContainer" onScroll={handleScroll} style={{ backgroundColor: bgColor }}>
             <Welcome />
