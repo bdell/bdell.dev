@@ -19,14 +19,8 @@
 }
 
 .MainAboutMeContainer {
-    width: 50%;
+    width: 90%;
     max-width: $largeBreakpoint;
-}
-
-@media (max-width: $largeBreakpoint) {
-    .MainAboutMeContainer {
-        max-width: 90%;
-    }
 }
 
 .AboutMeP {
