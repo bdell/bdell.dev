@@ -10,6 +10,18 @@
     src: local('HackRegular'), url(./Hack-Regular.ttf) format('truetype');
 }
 
+@keyframes wiggle {
+    0% {
+        transform: translate(3px, 0);
+    }
+    50% {
+        transform: translate(-3px, 0);
+    }
+    100% {
+        transform: translate(3px, 0);
+    }
+}
+
 .Fullscreen {
     height: 100vh;
     width: 100vw;

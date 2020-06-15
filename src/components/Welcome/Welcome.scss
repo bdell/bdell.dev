@@ -9,3 +9,8 @@
     background-color: $pop-orange;
     cursor: pointer;
 }
+
+.WelcomeBackDrop:hover {
+    animation: wiggle 100ms;
+    animation-timing-function: linear;
+}

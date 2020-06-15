@@ -1,4 +1,5 @@
 @import '../../styles/styleVariables.scss';
+@import '../../styles/coreStyles.scss';
 
 .ProjectCard {
     width: 300px;
@@ -8,6 +9,12 @@
     background-color: white;
     border-radius: 4px;
     font-family: 'HackRegular';
+    cursor: pointer;
+}
+
+.ProjectCard:hover {
+    animation: wiggle 100ms;
+    animation-timing-function: linear;
 }
 
 .ProjectImageContainer {
@@ -15,14 +22,12 @@
     height: 200px;
     background-size: cover;
     border-bottom: $defaultBorderSize solid black;
-    cursor: pointer;
 }
 
 .CardTitle {
     font-size: 1.3rem;
     line-height: 2rem;
     font-weight: 500;
-    cursor: pointer;
     font-family: 'AnimeAce';
     margin-bottom: $defaultPaddingAmount;
 }

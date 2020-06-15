@@ -1,10 +1,9 @@
 const projects = [
     {
         title: `goto.pizza`,
-        url: `http://www.goto.pizza`,
+        url: `https://github.com/bdell/goto.pizza`,
         description: `The Fastest way to find hot pizza in your area!  Built using google maps, google places api, and react.`,
         secondaryLink: 'https://github.com/bdell/goto.pizza',
-        secondaryLinkText: 'project on github',
         projectId: 5,
         image: `https://raw.githubusercontent.com/bdell/goto.pizza/master/public/screenshot.png`,
     },
