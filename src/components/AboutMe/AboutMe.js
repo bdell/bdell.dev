@@ -15,9 +15,9 @@ const AboutMe = () => {
                             My name is Brandon and I have been working in software development for over 8 years.
                         </span>
                         <span className="AboutMeP">
-                            I started out working as a junior developer at the Thomas Jefferson National Laboratory
-                            doing statistical simulations for physics research, but over the years I have transitioned
-                            to more of a front end focus.
+                            I started out working as a junior developer at the Thomas Jefferson National Accelerator
+                            Facility doing statistical simulations for physics research, but over the years I have
+                            transitioned to more of a front end focus.
                         </span>
                         <span className="AboutMeP">
                             During that time I have led teams of developers, worked with a plethora of libraries, and
